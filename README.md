@@ -50,7 +50,6 @@ API consumida no projeto
 - CSS
 - React
 - HTML
-- Axios
 - Next.js
 
 <h2 id="comousar"> Como usar </h2>
