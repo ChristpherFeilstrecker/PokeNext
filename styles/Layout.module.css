@@ -1,0 +1,48 @@
+/*  SPLASH  */
+
+.splash{
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+}
+
+.wrap1{
+    background-color: #FFF;
+    height: 50vh;
+    width: 100vw;
+    animation: toLeft 4s ;
+}
+
+.wrap2{
+    background-color: #FFF;
+    height: 50vh;
+    width: 100vw;
+    animation: toLeft 4s ;
+}
+
+@keyframes toLeft {
+    0% {
+        visibility: visible;
+        width: 100vw;
+    }
+
+    30% {
+        visibility: visible;
+        width: 100vw;
+    }
+    
+    100% {
+        visibility: visible;
+        width: 0;
+    }
+}
+
+.end{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content:flex-end
+}
